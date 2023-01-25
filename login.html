@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content-box">
+            <a href="#">
+                <div class="without-reg">
+                    Qeydiyyatsız davam edin
+                </div>
+            </a>
+            <div class="login-register">
+                <div class="switch-login">
+                    <div class="login-text">Daxil ol</div>
+                </div>
+                <div class="switch-register">
+                    <div class="register-text">Qeydiyyat</div>
+                </div>
+            </div>
+            <div class="login-form">
+                <form id="login-submit" name="login">
+                    <input  name="mail" placeholder="Email" id="login-mail"> 
+                    <small class="emailerror hidden" style="color:red;">email daxil edin</small>
+                    <input type="password"  name="password" placeholder="Password" id="login-password">
+                    <small class="parolerror hidden" style="color:red;">Parolu daxil edin</small>
+                    <button type="submit" class="login-submit" >Daxil ol</button>
+                    <a href="#">Şifrəmi unutdum</a>
+                </form>
+            </div>
+            <div class="register-form hidden">
+                <form id="register-form" name="register">
+                    <div class="name-surname">
+                        <input type="text" placeholder="Name" id="register-name">
+                        <small class="nameerror hidden" style="color:red">adinizi duzgun daxil edin</small>
+                        <input type="text" placeholder="Surname" id="register-surname">
+                        <small class="surnameerror hidden" style="color:red">Soyadinizi daxil edin</small>
+                    </div>
+                    <input type="mail"  name="email"  placeholder="Email ünvanı" id="register-mail">
+                    <small class="mailerror hidden" style="color: red;">Maili duzgun daxil edin</small>
+                    <input type="password" name="rpassword" placeholder="Password" id="register-password">
+                    <small class="parolaerror hidden" style="color:red;">"Password must be at least 8 characters and must contain at least one lowercase letter, one uppercase letter, and one number."</small>
+                    <input type="password" name="nrpassword" placeholder="Password" id="register-password2">
+                    <small class="parolaerrortruefalse hidden" style="color:red;">Parolun eyniliyini yoxlayin</small>
+                    <div class="checkbox">
+                        <input type="checkbox" name="" id="">
+                        <p>Kampaniyalardan xəbərdar olmaq üçün məlumat almaq istəyirik, Qaydalar və şərtlər Qaydalarla razıyam.</p>
+                    </div>
+                    <button type="submit" class="register-submit">Qeydiyyat</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./js/main2.js"></script>
+</body>
+</html>

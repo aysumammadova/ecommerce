@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Nunito:wght@300&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+
+    <!---loading-->
+
+    <div class="container-loading">
+        <div class="loading">
+          <div class="ball one"></div>
+          <div class="ball two"></div>
+          <div class="ball three"></div>
+           <div class="ball four"></div>
+        </div>
+      </div>
+
+    <header class="header hidden">
+        <div class="header-image">
+            <img src="./image/logo.png.webp" alt="logo">
+        </div>
+        <div class="header-list">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>WOMEN'S</li>
+                <li>MEN'S</li>
+                <li>SHOP</li>
+                <li class="pages">PAGES
+                    <ul class="dropdown hidden">
+                        <li>Product Details</li>
+                        <li>Shop Cart</li>
+                        <li>Checkout</li>
+                        <li>Blog Details</li>
+                    </ul>
+                </li>
+                <li class="blog"><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="header-end">
+            <div class="login-register">
+                <a href="login.html">Login / Register</p>
+            </div>
+            <div class="header-buttons">
+                <ul>
+                    <a class="popup" onclick="openSearch()"><li><i class="fa-solid fa-magnifying-glass"></i></li>                    </a>
+                    <li><i class="fa-regular fa-heart"></i></li>
+                    <li><i class="fa-solid fa-basket-shopping"></i></li>
+                    <li><i class="fa-solid fa-circle-half-stroke dark-light"></i>                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="our-blog">
+        <h3>Our Blog</h3>
+        <p>Home-blog</p>
+    </div>
+
+
+    <div class="video-blog">
+        <div class="video">
+            <video src="./video/video.mp4"  type="video/mp4" autoplay="autoplay"></video>
+        </div>
+        <div class="controls">
+            <div class="progress">
+              <div class="progress__filled"></div>
+            </div>
+            <button class="controls__button toggleButton" title="Toggle Play">
+              ►
+            </button>
+            <button class="controls__button" data-skip="-10" >« 10s</button>
+            <button class="controls__button" data-skip="10" >10s »</button>
+          </div>
+    </div>
+    
+
+    <div class="video-about">
+        <div class="post-share">
+            <a href="https://www.facebook.com/" class="social-facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+                <span>Share</span>
+            </a>
+            <a href="https://twitter.com/home" class="social-twitter">
+                <i class="fa-brands fa-twitter"></i>
+                <span>Share</span>
+            </a>
+            <a href="https://www.pinterest.com/" class="social-pinterest">
+                <i class="fa-brands fa-pinterest"></i>
+                <span>Share</span>
+            </a>
+            <a href="https://mail.google.com/mail/u/0/#inbox" class="social-email">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Share</span>
+            </a>
+        </div>
+        <div class="video-about-text">
+            <h2>Ea vix periculis sententiae, ea blandit pericula abhorreant pri.</h2>
+            <p>Lorem ipsum dolor sit amet, mea ad idque detraxit, cu soleat graecis invenire eam. Vidisse suscipit liberavisse has ex, vocibus patrioque vim et, sed ex tation reprehendunt. Mollis volumus no vix, ut qui clita habemus, ipsum senserit est et. Ut has soluta epicurei mediocrem, nibh nostrum his cu, sea clita electram reformidans an.
+
+                Est in saepe accusam luptatum. Purto deleniti philosophia eum ea, impetus copiosae id mel. Vis at ignota delenit democritum, te summo tamquam delicata pro. Utinam concludaturque et vim, mei ullum intellegam ei. Eam te illum nostrud, suas sonet corrumpit ea per. Ut sea regione posidonium. Pertinax gubergren ne qui, eos an harum mundi quaestio.</p>
+            <blockquote class="blockquote">
+                <p>Ei prima graecis consulatu vix, per cu corpora qualisque voluptaria. Bonorum moderatius in per, ius cu albucius voluptatum. Ne ius torquatos dissentiunt. Brute illum utroque eu quo. Cu tota mediocritatem vis, aliquip cotidieque eu ius, cu lorem suscipit eleifend sit.</p>
+                <small> - John Doe</small>
+            </blockquote>
+            <p>Mei cu diam sonet audiam, his ad impetus fuisset indoctum. Te sit altera qualisque, stet suavitate ne vel. Euismod suavitate duo eu, habemus rationibus neglegentur ei qui. Debet omittam ad usu, ex vero feugait oporteat eos, id usu sint numquam sententiae.</p>
+            <img src="./image/videoimg.webp" width="800px" height="600px">
+        </div>
+    </div>
+
+    <footer class="footer hidden">
+        <div class="footer-container">
+            <div class="md-1">
+                <img src="./image/logo.png.webp" alt="logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt cilisis.</p>
+                <div class="pay">
+                    <a href="index.html"><img src="./image/payment-1.png.webp" alt="payment"></a>
+                    <a href="index.html"><img src="./image/payment-2.png.webp" alt="payment"></a>
+                    <a href="index.html"><img src="./image/payment-3.png.webp" alt="payment"></a>
+                    <a href="index.html"><img src="./image/payment-4.png.webp" alt="payment"></a>
+                    <a href="index.html"><img src="./image/payment-5.png.webp" alt="payment"></a>
+
+                </div>
+            </div>
+            <div class="md-2">
+                <h6>QUICK LINKS</h6>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Contact</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            <div class="md-3">
+                <h6>ACCOUNT</h6>
+                <ul>
+                    <li>My Account</li>
+                    <li>Orders Tracking</li>
+                    <li>Checkout</li>
+                    <li>Wishlist</li>
+                </ul>
+            </div>
+            <div class="md-4">
+                <h6>NEWSLETTER</h6>
+                <form action="#">
+                    <input type="email" name="" id="" placeholder="Email">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+                <div class="social">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+        <div class="overlay-content">
+          <form>
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+          <div class="smallermsg">
+            <small class="dontsend-message hidden">Please fill the blanks</small>
+            <small class="send-message hidden">Message sent the our mail!</small>
+        </div>
+        </div>
+      </div>
+      
+<script src="./js/blog.js"></script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+.container {
+  width: 500px;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 30px 10px;
+  margin: 0 auto 62px;
+  font-size: 15px;
+}
+.container .hidden {
+  display: none !important;
+}
+.container .content-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #484848;
+}
+.container .content-box a {
+  color: #ba958b;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+}
+.container .content-box a .without-reg {
+  color: #ba958b;
+}
+.container .content-box .login-register {
+  width: 350px;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: #eee;
+  border-radius: 10px;
+  margin-top: 4em;
+  margin-bottom: 20px;
+}
+.container .content-box .login-register .switch-login {
+  width: 49%;
+  height: 91%;
+  border-radius: 10px;
+  text-align: center;
+}
+.container .content-box .login-register .switch-login .login-text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  font-size: 17px;
+  font-size: 1.0625rem;
+  font-weight: 500;
+}
+.container .content-box .login-register .switch-register {
+  width: 49%;
+  height: 91%;
+  border-radius: 10px;
+  background-color: transparent;
+  text-align: center;
+}
+.container .content-box .login-register .switch-register .register-text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  font-size: 17px;
+  font-size: 1.0625rem;
+  font-weight: 500;
+}
+.container .content-box .login-form {
+  height: 420px;
+}
+.container .content-box .login-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+.container .content-box .login-form form input {
+  border-radius: 5px;
+  border: none;
+  background-color: #eee;
+  width: 400px;
+  height: 40px;
+  padding: 10px 20px;
+  outline: none;
+  border: 1px solid #fff;
+  transition: all 0.35s ease-out;
+}
+.container .content-box .login-form form .login-submit {
+  border: 1px solid transparent;
+  color: #fff;
+  background: rgb(22, 196, 106);
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 25px;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3px;
+}
+.container .content-box .register-form {
+  width: 350px;
+}
+.container .content-box .register-form #register-form {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.container .content-box .register-form #register-form p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 4px;
+  color: black;
+}
+.container .content-box .register-form #register-form .name-surname {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.container .content-box .register-form #register-form .name-surname input {
+  height: 38px;
+  width: 150px;
+}
+.container .content-box .register-form #register-form input {
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  background-color: #eee;
+  width: 100%;
+  height: 40px;
+  padding: 10px 20px;
+  outline: none;
+  border: 1px solid #fff;
+  transition: all 0.35s ease-out;
+}
+.container .content-box .register-form #register-form .checkbox {
+  display: flex;
+  flex-direction: row;
+}
+.container .content-box .register-form #register-form .checkbox input {
+  width: 30px;
+}
+.container .content-box .register-form #register-form button {
+  border: 1px solid transparent;
+  color: #fff;
+  background: rgb(22, 196, 106);
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 25px;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3px;
+}/*# sourceMappingURL=main.css.map */

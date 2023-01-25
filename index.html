@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Nunito:wght@300&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+
+    <!---loading-->
+
+    <div class="container-loading">
+        <div class="loading">
+          <div class="ball one"></div>
+          <div class="ball two"></div>
+          <div class="ball three"></div>
+           <div class="ball four"></div>
+        </div>
+      </div>
+
+    <header class="header hidden">
+        <div class="header-image">
+            <img src="./image/logo.png.webp" alt="logo">
+        </div>
+        <div class="header-list">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>WOMEN'S</li>
+                <li>MEN'S</li>
+                <li>SHOP</li>
+                <li class="pages">PAGES
+                    <ul class="dropdown hidden">
+                        <li>Product Details</li>
+                        <li>Shop Cart</li>
+                        <li>Checkout</li>
+                        <li>Blog Details</li>
+                    </ul>
+                </li>
+                <li class="blog"><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="header-end">
+            <div class="login-register">
+                <a href="login.html">Login / Register</p>
+            </div>
+            <div class="header-buttons">
+                <ul>
+                    <a class="popup" onclick="openSearch()"><li><i class="fa-solid fa-magnifying-glass"></i></li>                    </a>
+                    <li><i class="fa-regular fa-heart"></i></li>
+                    <li><i class="fa-solid fa-basket-shopping"></i></li>
+                    <li><i class="fa-solid fa-circle-half-stroke dark-light"></i>                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+  
+
+    <section class="products hidden">
+        <div class="products-container">
+            <div class="products-container-header">
+                <h2>NEW PRODUCT</h2>
+                <div class="products-list">
+                    <ul>
+                        <li><a class="all">All</a></li>
+                        <li><a class="women">Women's</a></li>
+                        <li><a class="men">Men's</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="products-container-images">
+                <div class="cards">
+                    <div class="card girl alls">
+                        <div class="card-img">
+                            <img src="./image/product-1.jpg.webp" alt="product-1">
+                            <div class="card-hid">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                        </div>
+                        
+                        <a href="#">Buttons tweed blazer</a>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>$ 59</p>
+                    </div>
+                    <div class="card boy alls">
+                        <div class="card-img">
+                            <img src="./image/product-2.jpg.webp" alt="product-1">
+                            <div class="card-hid">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                        </div>
+                        
+                        <a href="#">Flowy striped skirt</a>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>$ 49</p>
+                    </div>
+                    <div class="card girl alls">
+                        <div class="card-img">
+                            <img src="./image/product-3.jpg.webp" alt="product-1">
+                            <div class="card-hid">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                        </div>
+                        
+                        <a href="#">Cotton T-Shirt</a>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>$ 70</p>
+                    </div>
+                    <div class="card boy alls">
+                        <div class="card-img">
+                            <img src="./image/product-4.jpg.webp" alt="product-1">
+                            <div class="card-hid">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                        </div>
+                        
+                        <a href="#">Slim striped pocket shirt</a>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>59$</p>
+                    </div>
+                    <div class="card boy alls">
+                        <div class="card-img">
+                            <img src="./image/product-5.jpg.webp" alt="product-1">
+                            <div class="card-hid">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                        </div>
+                        
+                        <a href="#">Fit micro corduroy shirt</a>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>59$</p>
+                    </div>
+                    <div class="card girl alls">
+                        <div class="card-img">
+                            <img src="./image/product-6.jpg.webp" alt="product-1">
+                            <div class="card-hid">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                        </div>
+                        
+                        <a href="#">Water resistant backpack</a>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>59$</p>
+                    </div>
+                    <div class="card girl alls">
+                        <div class="card-img">
+                            <img src="./image/product-7.jpg.webp" alt="product-1">
+                            <div class="card-hid">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                        </div>
+                        
+                        <a href="#">Contrasting sunglasses</a>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>59$</p>
+                    </div>
+                    <div class="card boy alls">
+                        <div class="card-img">
+                            <img src="./image/product-8.jpg.webp" alt="product-1">
+                            <div class="card-hid">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                        </div>
+                        
+                        <a href="#">Tropical Kimono</a>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>59$</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="trend-clothes hidden">
+        <div class="container">
+            <div class="col-md-1">
+                <div class="trend-name">
+                    <h2><span>HOT TREND</span></h2>
+                </div>
+                <div class="trend-card">
+                    <div class="trend-img">
+                        <img src="./image/ht-1.jpg.webp" alt="Bag">
+                    </div>
+                    <div class="card-about">
+                        <p>Chain bucket bag</p>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>$ 59.0</h4>
+                    </div>
+                </div>
+                <div class="trend-card">
+                    <div class="trend-img">
+                        <img src="./image/ht-2.jpg.webp" alt="Accessories">
+                    </div>
+                    <div class="card-about">
+                        <p>Pendant earrings</p>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>$ 49.0</h4>
+                    </div>
+                </div> 
+                <div class="trend-card">
+                    <div class="trend-img">
+                        <img src="./image/ht-3.jpg.webp" alt="tshirt">
+                    </div>
+                    <div class="card-about">
+                        <p>Cotton T-Shirt</p>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>$ 86.0</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="trend-name">
+                    <h2><span>BEST SELLER</span></h2>
+                </div>
+                <div class="trend-card">
+                    <div class="trend-img">
+                        <img src="./image/bs-1.jpg.webp" alt="Bag">
+                    </div>
+                    <div class="card-about">
+                        <p>Cotton T-Shirt</p>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>$ 59.0</h4>
+                    </div>
+                </div>
+                <div class="trend-card">
+                    <div class="trend-img">
+                        <img src="./image/bs-2.jpg.webp" alt="Accessories">
+                    </div>
+                    <div class="card-about">
+                        <p>Zip pockets pebbled tote briefcase</p>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>$ 49.0</h4>
+                    </div>
+                </div> 
+                <div class="trend-card">
+                    <div class="trend-img">
+                        <img src="./image/bs-3.jpg.webp" alt="tshirt">
+                    </div>
+                    <div class="card-about">
+                        <p>Round leather bag</p>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>$ 86.0</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="trend-name">
+                    <h2><span>FEATURE</span></h2>
+                </div>
+                <div class="trend-card">
+                    <div class="trend-img">
+                        <img src="./image/f-1.jpg.webp" alt="Bag">
+                    </div>
+                    <div class="card-about">
+                        <p>Bow wrap skirt</p>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>$ 59.0</h4>
+                    </div>
+                </div>
+                <div class="trend-card">
+                    <div class="trend-img">
+                        <img src="./image/f-2.jpg.webp" alt="Accessories">
+                    </div>
+                    <div class="card-about">
+                        <p>Metallic earrings</p>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>$ 49.0</h4>
+                    </div>
+                </div> 
+                <div class="trend-card">
+                    <div class="trend-img">
+                        <img src="./image/f-3.jpg.webp" alt="tshirt">
+                    </div>
+                    <div class="card-about">
+                        <p>Flap cross-body bag</p>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>$ 86.0</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services-spad hidden">
+        <div class="services-spad-container">
+            <div class="sevices-card">
+                <i class="fa fa-car"></i>
+                <div class="srvc-txt">
+                    <h6>Free Shipping</h6>
+                    <p>For all oder over $99</p>
+                </div>
+            </div>
+            <div class="sevices-card">
+                <i class="fa-solid fa-sack-dollar"></i>                <div class="srvc-txt">
+                    <h6>Money Back Guarantee</h6>
+                    <p>If good have Problems</p>
+                </div>
+            </div>
+            <div class="sevices-card">
+                <i class="fa-solid fa-life-ring"></i>                <div class="srvc-txt">
+                    <h6>Online Support 24/7</h6>
+                    <p>Dedicated support</p>
+                </div>
+            </div>
+            <div class="sevices-card">
+                <i class="fa fa-headphones"></i>
+                <div class="srvc-txt">
+                    <h6>Payment Secure</h6>
+                    <p>100% secure payment</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---slide-->
+    <section class="single hidden">
+        <div class="single-header">
+            <p>"Sale Up To 50% Biggest Discounts. Hurry! Limited Perriod Offer"  
+                <a href="#" class="browser-btn">Shop Now</a></p>
+        </div>
+        <div class="single-container">
+            <div class="slick">
+                <div class="slick-container">
+                    <div class="slick-text">
+                        <h2>Customer Testimonial</h2>
+                        <p>"Everybody is different, which is why we offer styles for every body. Laborum fuga incidunt laboriosam voluptas iure, delectus dignissimos facilis neque nulla earum."</p>
+                    </div>
+                    <div class="slck-img">
+                        <div class="slck-imgg">
+                            <img src="./image/slck1.webp">
+                        </div>
+                        <div class="slck-txt">
+                            <p class="name-txt">Petey Cruiser</p>
+                            <p class="prof">Designer at Colorlib</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="slick">
+                <div class="slick-container">
+                    <div class="slick-text">
+                        <h2>Lorem, ipsum dolor.</h2>
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sequi labore illo. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="slck-img">
+                        <div class="slck-imgg">
+                            <img src="./image/slck1.webp">
+                        </div>
+                        <div class="slck-txt">
+                            <p class="name-txt">Petey Cruiser</p>
+                            <p class="prof">Designer at Colorlib</p>
+                        </div>
+                    </div>
+                </div>         
+               </div>
+            <div class="slick">
+                <div class="slick-container">
+                    <div class="slick-text">
+                        <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A nostrum animi architecto assumenda necessitatibus magnam repellendus natus neque? Nostrum fuga repudiandae optio maxime dicta dolores, ad accusamus eum, iste assumenda nihil, aliquid fugiat sint totam veritatis dolorem explicabo dolor ut.</p>
+                    </div>
+                    <div class="slck-img">
+                        <div class="slck-imgg">
+                            <img src="./image/slck1.webp">
+                        </div>
+                        <div class="slck-txt">
+                            <p class="name-txt">Petey Cruiser</p>
+                            <p class="prof">Designer at Colorlib</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <i class="fa-solid fa-circle-chevron-left btn left"></i>
+            <i class="fa-solid fa-circle-chevron-right btn right"></i>
+
+        </div>
+    </section>  
+
+    <!---settimeout slide-->
+    <div class="latest-coming hidden">
+        <div class="latest-products">
+            <div class="latest-txt">
+                <h1>Latest Products</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore
+                    magna aliqua.</p>
+            </div>
+            <div class="latest-container">
+                <div class="latest-imgs">
+                    <div class="l-img">
+                        <img src="./image/sneaker1.webp">
+                        <h3>Adidas new hammer sole for sports person</h3>
+                        <p>$150.00 <span>$210.00</span></p>
+                    </div>
+                    <div class="l-img">
+                        <img src="./image/sneaker2.webp">
+                        <h3>Adidas new hammer sole for sports person</h3>
+                        <p>$150.00 <span>$210.00</span></p>
+                    </div> <div class="l-img">
+                        <img src="./image/sneaker3.webp">
+                        <h3>Adidas new hammer sole for sports person</h3>
+                        <p>$150.00 <span>$210.00</span></p>
+                    </div> <div class="l-img">
+                        <img src="./image/sneaker4.webp">
+                        <h3>Adidas new hammer sole for sports person</h3>
+                        <p>$150.00 <span>$210.00</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="latest-products">
+            <div class="latest-txt">
+                <h1>Coming Products</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore
+                    magna aliqua.</p>
+            </div>
+            <div class="latest-container">
+                <div class="latest-imgs">
+                    <div class="l-img">
+                        <img src="./image/sneaker5.webp">
+                        <h3>Adidas new hammer sole for sports person</h3>
+                        <p>$150.00 <span>$210.00</span></p>
+                    </div>
+                    <div class="l-img">
+                        <img src="./image/sneaker6.webp">
+                        <h3>Adidas new hammer sole for sports person</h3>
+                        <p>$150.00 <span>$210.00</span></p>
+                    </div> <div class="l-img">
+                        <img src="./image/sneaker7.webp">
+                        <h3>Adidas new hammer sole for sports person</h3>
+                        <p>$150.00 <span>$210.00</span></p>
+                    </div> <div class="l-img">
+                        <img src="./image/sneaker8.webp">
+                        <h3>Adidas new hammer sole for sports person</h3>
+                        <p>$150.00 <span>$210.00</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--popular items-->
+    <div class="popular-container hidden">
+        <div class="pop-text">
+            <h2>Popular Items</h2>
+            <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+        </div>
+        <div class="pop-product-1">
+            <div class="pop-cards">
+                <div class="pop-card">
+                    <div class="pop-img">
+                        <img src="./image/popular1.png.webp">
+                    </div>
+                    <div class="pop-card-txt">
+                        <h3>Thermo Ball Etip Gloves</h3>
+                        <p>$ 45,743</p>
+                    </div>
+                </div>
+                <div class="pop-card">
+                    <div class="pop-img">
+                        <img src="./image/popular2.png.webp">
+                    </div>
+                    <div class="pop-card-txt">
+                        <h3>Thermo Ball Etip Gloves</h3>
+                        <p>$ 45,743</p>
+                    </div>
+                </div><div class="pop-card">
+                    <div class="pop-img">
+                        <img src="./image/popular3.png.webp">
+                    </div>
+                    <div class="pop-card-txt">
+                        <h3>Thermo Ball Etip Gloves</h3>
+                        <p>$ 45,743</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pop-product-2 hidden2">
+            <div class="pop-cards">
+                <div class="pop-card">
+                    <div class="pop-img">
+                        <img src="./image/popular4.png.webp">
+                    </div>
+                    <div class="pop-card-txt">
+                        <h3>Thermo Ball Etip Gloves</h3>
+                        <p>$ 45,743</p>
+                    </div>
+                </div>
+                <div class="pop-card">
+                    <div class="pop-img">
+                        <img src="./image/popular5.png.webp">
+                    </div>
+                    <div class="pop-card-txt">
+                        <h3>Thermo Ball Etip Gloves</h3>
+                        <p>$ 45,743</p>
+                    </div>
+                </div><div class="pop-card">
+                    <div class="pop-img">
+                        <img src="./image/popular6.png.webp">
+                    </div>
+                    <div class="pop-card-txt">
+                        <h3>Thermo Ball Etip Gloves</h3>
+                        <p>$ 45,743</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="view">
+            <div class="view-btn">
+                <a>View More Products</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="gallery hidden">
+        <div class="gallery-img">
+            <img src="./image/insta-1.jpg.webp" alt="instagram image">
+            <img src="./image/insta-2.jpg.webp" alt="instagram image">
+            <img src="./image/insta-3.jpg.webp" alt="instagram image">
+            <img src="./image/insta-4.jpg.webp" alt="instagram image">
+            <img src="./image/insta-5.jpg.webp" alt="instagram image">
+            <img src="./image/insta-6.jpg.webp" alt="instagram image">
+        </div>
+    </section>
+
+    <footer class="footer hidden">
+        <div class="footer-container">
+            <div class="md-1">
+                <img src="./image/logo.png.webp" alt="logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt cilisis.</p>
+                <div class="pay">
+                    <a href="index.html"><img src="./image/payment-1.png.webp" alt="payment"></a>
+                    <a href="index.html"><img src="./image/payment-2.png.webp" alt="payment"></a>
+                    <a href="index.html"><img src="./image/payment-3.png.webp" alt="payment"></a>
+                    <a href="index.html"><img src="./image/payment-4.png.webp" alt="payment"></a>
+                    <a href="index.html"><img src="./image/payment-5.png.webp" alt="payment"></a>
+
+                </div>
+            </div>
+            <div class="md-2">
+                <h6>QUICK LINKS</h6>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Contact</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            <div class="md-3">
+                <h6>ACCOUNT</h6>
+                <ul>
+                    <li>My Account</li>
+                    <li>Orders Tracking</li>
+                    <li>Checkout</li>
+                    <li>Wishlist</li>
+                </ul>
+            </div>
+            <div class="md-4">
+                <h6>NEWSLETTER</h6>
+                <form action="#" id="footer-message">
+                    <input  name="text" id="footmsg" placeholder="send a message">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+                <div class="smallermsg">
+                    <small class="dontsend-message hidden">Please fill the blanks</small>
+                    <small class="send-message hidden">Message sent the our mail!</small>
+                </div>
+                <div class="social">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+        <div class="overlay-content">
+          <form>
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+      
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

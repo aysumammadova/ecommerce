@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Nunito:wght@300&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container-loading">
+        <div class="loading">
+          <div class="ball one"></div>
+          <div class="ball two"></div>
+          <div class="ball three"></div>
+           <div class="ball four"></div>
+        </div>
+      </div>
+
+      <header class="header hidden">
+        <div class="header-image">
+            <img src="./image/logo.png.webp" alt="logo">
+        </div>
+        <div class="header-list">
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li>WOMEN'S</li>
+                <li>MEN'S</li>
+                <li>SHOP</li>
+                <li class="pages">PAGES
+                    <ul class="dropdown hidden">
+                        <li>Product Details</li>
+                        <li>Shop Cart</li>
+                        <li>Checkout</li>
+                        <li>Blog Details</li>
+                    </ul>
+                </li>
+                <li><a href="./blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="header-end">
+            <div class="login-register">
+                <a href="login.html">Login / Register</p>
+            </div>
+            <div class="header-buttons">
+                <ul>
+                    <a class="popup" onclick="openSearch()"><li><i class="fa-solid fa-magnifying-glass"></i></li>                    </a>
+                    <li><i class="fa-regular fa-heart"></i></li>
+                    <li><i class="fa-solid fa-basket-shopping"></i></li>
+                    <li><i class="fa-solid fa-circle-half-stroke"></i></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="map-1 hidden">
+        <div class="map-container">
+            <div class="map-text">
+                <div class="contact-info">
+                    <h5>Contact Info</h5>
+                    <ul>
+                        <li>
+                            <h6> 
+                                <i class="fa fa-map-marker">Address</i>
+                            </h6>
+                            <p>160 Pennsylvania Ave NW, Washington, Castle, PA 16101-5161</p>
+                        </li>
+                        <li>
+                            <h6> 
+                                <i class="fa fa-phone"> Phone</i>
+                            </h6>
+                            <p>125-711-811 | 125-668-886</p>
+                        </li>
+                        <li>
+                            <h6> 
+                                <i class="fa fa-headphones"> Support</i>
+                            </h6>
+                            <p>Support.photography@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="send-message">
+                    <h5>Send message</h5>
+                    <form action="#" class="form">
+                        <input type="text" placeholder="Name" name="name" id="name">
+                        <small class="name-error hidden">'Please enter your full name (first & last name).'</small>
+                        <input type="text" placeholder="Email" name="email" id="mail">
+                        <small class="mail-error hidden">You should be fill this area</small>
+                        <input type="text" placeholder="Website" name="link" id="link">
+                        <small class="text-error hidden">You write https/http/domain name/adress/port/</small>
+                        <textarea placeholder="Message" name="text" id="text"></textarea>
+                        <small class="message-error hidden
+                        ">You should min 150 words</small>
+                        <button type="submit" class="site-btn">Send message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="map">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.1754749516417!2d49.82186011520726!3d40.382803365626486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307da6f327d463%3A0xbe68553e791e5e84!2sCoders%20Azerbaijan!5e0!3m2!1str!2s!4v1674129223975!5m2!1str!2s"
+                width="90%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer hidden">
+        <div class="footer-container">
+            <div class="md-1">
+                <img src="./image/logo.png.webp" alt="logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt cilisis.</p>
+                <div class="pay">
+                    <a href="index.html"><img src="./image/payment-1.png.webp" alt="payment"></a>
+                    <a href="index.html"><img src="./image/payment-2.png.webp" alt="payment"></a>
+                    <a href="index.html"><img src="./image/payment-3.png.webp" alt="payment"></a>
+                    <a href="index.html"><img src="./image/payment-4.png.webp" alt="payment"></a>
+                    <a href="index.html"><img src="./image/payment-5.png.webp" alt="payment"></a>
+
+                </div>
+            </div>
+            <div class="md-2">
+                <h6>QUICK LINKS</h6>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Contact</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            <div class="md-3">
+                <h6>ACCOUNT</h6>
+                <ul>
+                    <li>My Account</li>
+                    <li>Orders Tracking</li>
+                    <li>Checkout</li>
+                    <li>Wishlist</li>
+                </ul>
+            </div>
+            <div class="md-4">
+                <h6>NEWSLETTER</h6>
+                <form action="#">
+                    <input type="email" name="" id="" placeholder="Email">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+                <div class="smallermsg">
+                    <small class="dontsend-message hidden">Please fill the blanks</small>
+                    <small class="send-message hidden">Message sent the our mail!</small>
+                </div>
+                <div class="social">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/contact.js"></script>
+</body>
+</html>
