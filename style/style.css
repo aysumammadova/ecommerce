@@ -1102,7 +1102,7 @@ footer .footer-container .md-4 .social a:hover {
 .controls {
   display: flex;
   position: absolute;
-  bottom: -410px;
+  bottom: -312px;
   width: 67.5%;
   left: 149px;
   flex-wrap: wrap;
@@ -1290,4 +1290,21 @@ input[type=range]::-moz-range-thumb {
   border: 2px solid #e8eaed;
   float: left;
   margin-right: 10px;
+}
+
+.video-about-img-txt {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.video-about-img-txt .texttttt {
+  height: auto;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid rgb(174, 161, 161);
+  margin-top: 50px;
+  color: rgb(100, 87, 87);
 }/*# sourceMappingURL=style.css.map */

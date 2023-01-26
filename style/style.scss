@@ -1118,7 +1118,7 @@ footer{
   .controls {
     display: flex;
     position: absolute;
-    bottom: -410px;
+    bottom: -312px;
     width: 67.5%;
     left: 149px;
     flex-wrap: wrap;
@@ -1307,3 +1307,22 @@ footer{
 
 
 
+
+
+
+.video-about-img-txt{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    .texttttt{
+        height: auto;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px solid rgb(174, 161, 161);
+        margin-top: 50px;
+        color: rgb(100, 87, 87);
+    }
+}
